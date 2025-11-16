@@ -1,6 +1,6 @@
 .page {
-  font-family: Inter, sans-serif; 
   width: var(--pages-inline-size);
+  font-family: Inter, sans-serif;
   background-image: var(--background-image);
   margin: auto;
 }
