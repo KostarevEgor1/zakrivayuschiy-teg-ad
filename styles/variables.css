@@ -2,13 +2,12 @@
   --second-font: "PressStart2P";
   --pages-inline-size: clamp(20rem, 13.22rem + 34vw, 44rem);
   --background-image: repeating-linear-gradient(to right, #d3d3d3 0 2px, rgb(211 211 211 / 0) 2px 4px),
-    repeating-linear-gradient(
-      to bottom,#d3d3d3 0 2px, rgb(211 211 211 / 0) 2px 4px),
     repeating-linear-gradient(to bottom, #e7e7e7 0.02%, #1a1a1a);
   --background-color: #fff;
   --card-k: 1.13rem;
   --header-font-size: clamp(3.1rem, 2.7rem + 1.49vw, 4.1rem);
   --shadow-text-color: #fff;
+  --label-stroke-color: var(--shadow-text-color);
   --red-heart-color: #ff0000;
   --heart-contour-color: #000;
 }
@@ -21,7 +20,7 @@
 
 @media (width < 375px) {
   :root {
-    --header-font-size: clamp(1.88rem,-5.1rem + 34.56vw,3.06rem);
+    --header-font-size: clamp(1.88rem, -5.1rem + 34.56vw, 3.06rem);
     --save-button-inline-size: min-content;
   }
 }
