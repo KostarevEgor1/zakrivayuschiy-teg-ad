@@ -251,52 +251,44 @@
   padding: 13px;
 }
 
-
-.heart-icon.is-liked .heart {
-  animation: change-scale 0.5s ease-in 0.1s 1;
-  transform-origin: center;
-}
-
-
-.heart-icon:active .core {
-  fill: var(--red-heart-color);
-  transition: fill 0.5s linear 0s;
-}
-
-
-.heart-icon:active .main-body {
-  fill: var(--red-heart-color);
-  transition: fill 0.5s linear 0.1s;
-}
-
-
 .heart-icon:hover .core {
   fill: #000;
   transition: fill 0.5s linear 0s;
 }
-
 
 .heart-icon:hover .main-body {
   fill: #000;
   transition: fill 0.5s linear 0.1s;
 }
 
-.heart-icon.is-liked .sparks {
-  animation: spark-opacity 0.5s ease-in 0.5s 1;
+.heart-icon:active .core {
+  fill: var(--red-heart-color);
+  transition: fill 0.5s linear 0s;
 }
 
+.heart-icon:active .main-body {
+  fill: var(--red-heart-color);
+  transition: fill 0.5s linear 0.1s;
+}
 
 .heart-icon.is-liked .core {
   transition: fill 0.5s linear 0s;
   fill: var(--red-heart-color);
 }
 
-
 .heart-icon.is-liked .main-body {
   transition: fill 0.5s linear 0.1s;
   fill: var(--red-heart-color);
 }
 
+.heart-icon.is-liked .heart {
+  animation: change-scale 0.5s ease-in 0.1s 1;
+  transform-origin: center;
+}
+
+.heart-icon.is-liked .sparks {
+  animation: spark-opacity 0.5s ease-in 0.5s 1;
+}
 
 @media (width >= 1440px) {
   .button-save-content svg {
@@ -304,7 +296,6 @@
     block-size: 21px;
   }
 }
-
 
 .button:hover::after {
   scale: 1 1;
